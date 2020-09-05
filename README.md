@@ -90,7 +90,7 @@ You can have multiple ways to quantify the feature importances such as [Gini, p-
 The feature importance code was obtained from [here](https://gist.github.com/timlrx/1d5fdb0a43adbbe32a9336ba5c85b1b2), which is a function can be easily
 incorporated into a pipeline.
 
-Good explination of this can refer to [here](https://www.timlrx.com/2018/06/19/feature-selection-using-feature-importance-score-creating-a-pyspark-estimator/).
+Good explination of feature importances in PySpark can refer to [here](https://www.timlrx.com/2018/06/19/feature-selection-using-feature-importance-score-creating-a-pyspark-estimator/).
 
 
 ## Data
