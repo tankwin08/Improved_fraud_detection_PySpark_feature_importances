@@ -2,9 +2,8 @@
 
 # Improved fraud detection pipeline using feature selction at the PySpark framework
 
-![alt text](./img/basic_flow_chart.PNG)
+![alt text](./img/feature_importance_pyspark.png)
 
-The picture is referenced [here](https://mapr.com/blog/real-time-credit-card-fraud-detection-apache-spark-and-event-streaming/).
 
 ## Goal
 The goal of this analysis is to conduct the feature selection using PCA vs. input perturbation strategies and further enhance the model performace for fraud detection in the PySpark framework.
@@ -126,8 +125,6 @@ The explanation columns of the input data:
 * isFlaggedFraud - The business model aims to control massive transfers from one account to another and flags illegal attempts. An illegal attempt in this dataset is an attempt to transfer more than 200,000 in a single transaction.
 
 
-The structure of the notebook is borrowed from [here](https://www.kaggle.com/arjunjoshua/predicting-fraud-in-financial-payment-services), which used pandas and sklearn to conduct the fraud detection. 
-
 
 ## Method overviews
 
@@ -137,7 +134,7 @@ The structure of the notebook is borrowed from [here](https://www.kaggle.com/arj
 
 3 Data stratified splitting and Model building
 
-4 Pipeline and cross validation
+4 Pipeline (including feature selection) and cross validation
 
 5 Model evaluation
 
