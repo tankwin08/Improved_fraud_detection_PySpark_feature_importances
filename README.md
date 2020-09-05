@@ -77,13 +77,10 @@ This algorithm was introduced by [Breiman](https://en.wikipedia.org/wiki/Leo_Bre
 This algorithm, known as the input perturbation algorithm, works by evaluating a trained model’s accuracy with each of the inputs individually shuffled from a data set.  Shuffling an input causes it to become useless—effectively removing it from the model. More important inputs will produce a less accurate score when they are removed by shuffling them. This process makes sense, because important features will contribute to the accuracy of the model. 
 
 
-The code was coming from [here](https://www.timlrx.com/2018/06/19/feature-selection-using-feature-importance-score-creating-a-pyspark-estimator/).
-
-The variable importance can be used in other analysis.
-
 ### PCA vs. input pertubation (e.g. Gini) for Feature selection
 In [previous post](https://github.com/tankwin08/PySpark_Fraud_detection_ML), I have implemented PCA method to conduct the feature selection and hyper-paramters tunning for fraud detection.
-In this project, the input pertubation strategies was used to measure the feature importances.
+
+**In this project, the input pertubation strategies was used to measure the feature importances.**
 
 You can have multiple ways to quantify the feature importances such as [Gini, p-values](https://www.sparkitecture.io/machine-learning/feature-importance).
 
